@@ -72,3 +72,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.container {
+	padding: 1.5em 2em;
+	min-width: 1280px;
+	margin-inline: auto;
+}
+
+.bg-surface__color {
+	background-color: var(--surface-color);
+}

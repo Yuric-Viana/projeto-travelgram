@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding-top: .6em;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    line-height: 0;
+}
+
+.nav-list__item a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.nav-list__item:last-child img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.nav-list__item:hover {
+    color: var(--brand-color);
+    transition: color 0.2s ease;
+
+    & a {
+        text-decoration: underline;
+        transition: text-decoration 0.2s ease;
+    }
+}
+
