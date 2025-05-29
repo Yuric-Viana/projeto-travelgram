@@ -21,9 +21,9 @@
 
 	--font-family: "Poppins", sans-serif;
 	--text-lg: bold 32px/125% var(--font-family);
-	--text-md: regular 14px/170% var(--font-family);
-	--text-sm: regular 12px/170% var(--font-family);
-	--text: regular 16px/150% var(--font-family);
+	--text-md: 14px/170% var(--font-family);
+	--text-sm: 12px/170% var(--font-family);
+	--text: 16px/150% var(--font-family);
 }
 
 html, body, div, span, applet, object, iframe,
@@ -81,4 +81,10 @@ table {
 
 .bg-surface__color {
 	background-color: var(--surface-color);
+}
+
+@media screen and (max-width: 1300px) {
+	.bg-surface__color {
+		width: max-content;
+	}
 }

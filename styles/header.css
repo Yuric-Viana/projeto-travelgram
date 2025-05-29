@@ -1,0 +1,48 @@
+.header-container {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-profile {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.container-profile img {
+    width: 10em;
+    border-radius: 50%;
+    height: 10em;
+}
+
+.container-profile > div {
+    max-width: 24em;
+}
+
+.container-profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: .25em;
+}
+
+.container-profile p {
+    font: var(--text-md);
+}
+
+.container-info {
+    width: 17.5em;
+}
+
+.container-info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info__list--item {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
